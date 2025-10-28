@@ -68,7 +68,6 @@ main {
   background-size: 1200px;
   background-position: center;
   height: 700px;
-  width: 1200;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,3 +118,50 @@ main {
 }
 
 /* locations */
+.location {
+  background-image: url("./assets/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: center;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.location h2 {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.locationDetails {
+  height: 80%;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.locationDetails div {
+  height: 70%;
+  width: 300px;
+  background-color: var(--black);
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer */
+footer div:nth-child(1) {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer div:nth-child(2) {
+  text-align: left;
+  margin-left: 20px;
+}
